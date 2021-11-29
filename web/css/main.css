@@ -1,5 +1,85 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: Raleway, sans-serif;
+}
+
+p {
+    font-size: 18px;
+    font-style: normal;
+}
+
+.menu-font {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.blog-1 {
+    background-image: url('/../web/img/image 24.jpg');
+    width: 100%;
+}
+
+
+a {
+    color: #000;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.card-blog1 {
+    width: 357.08px;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 4.51996px rgba(0, 0, 0, 0.25);
+}
+
+.inline-card-blog1 {
+    width: 344.42px;
+    height: auto;
+    border: 1px dashed #767171;
+    box-sizing: border-box;
+}
+
+.card-blog2 {
+    width: 361px;
+    height: auto;
+    background-color: #E7F2FF;
+    box-shadow: 0px 0px 4.51996px rgba(0, 0, 0, 0.25);
+}
+
+.inline-card-blog2 {
+    width: 352px;
+    height: auto;
+    border: 1px dashed #767171;
+    box-sizing: border-box;
+}
+
+.plazhki img {
+    position: relative;
+}
+
+.plazhki img:hover {
+    z-index: 10;
+}
+.icon img {
+    position: absolute;
+}
+.question-item{
+    position: relative;
+    margin: 0 auto;
+}
+
+.question-item:before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: calc(50% - 10px);
+    left: 5%;
+    background: url('/img/icons/icon-5.png') no-repeat center;
 }
 
