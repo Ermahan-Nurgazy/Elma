@@ -9,13 +9,19 @@ p {
     font-style: normal;
 }
 
+.blog1-title p {
+    font-size: 36.72px;
+    font-weight: 400;
+    line-height: 42px;
+}
+
 .menu-font {
     font-size: 16px;
     font-weight: 500;
 }
 
 .blog-1 {
-    background-image: url('/../web/img/image 24.jpg');
+    background: url('/../web/img/image 24.jpg') no-repeat center;
     width: 100%;
 }
 
@@ -31,48 +37,54 @@ a:hover {
 }
 
 .card-blog1 {
-    width: 357.08px;
+    /*width: 30%;*/
+    min-height: 100px;
     height: auto;
     background-color: #fff;
     box-shadow: 0px 0px 4.51996px rgba(0, 0, 0, 0.25);
 }
 
 .inline-card-blog1 {
-    width: 344.42px;
-    height: auto;
+    min-height: 100px;
     border: 1px dashed #767171;
     box-sizing: border-box;
 }
 
+.inline-card-blog1 p {
+    font-weight: 700;
+    padding-left: 25%;
+}
+
 .card-blog2 {
-    width: 361px;
+    width: 100%;
+    min-height: 80px;
     height: auto;
     background-color: #E7F2FF;
     box-shadow: 0px 0px 4.51996px rgba(0, 0, 0, 0.25);
 }
 
 .inline-card-blog2 {
-    width: 352px;
-    height: auto;
+    min-height: 80px;
     border: 1px dashed #767171;
     box-sizing: border-box;
 }
 
+.inline-card-blog2 p {
+    font-weight: 600;
+    font-size: 16px;
+}
+
 .plazhki img {
     position: relative;
+    width: 100%;
 }
 
 .plazhki img:hover {
     z-index: 10;
 }
-.icon img {
-    position: absolute;
-}
-.question-item{
+.question-item {
     position: relative;
-    margin: 0 auto;
 }
-
 .question-item:before{
     content: "";
     position: absolute;
@@ -81,5 +93,167 @@ a:hover {
     top: calc(50% - 10px);
     left: 5%;
     background: url('/img/icons/icon-5.png') no-repeat center;
+}
+
+.img-blog2 {
+    width: 40%;
+}
+
+.done {
+    position: relative;
+}
+
+.done:before {
+    content: "";
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    top: calc(50% - (29px/2));
+    left: 0;
+    background: url('/img/icons/icon-1.png') no-repeat center;
+}
+
+.close-item {
+    position: relative;
+}
+
+.close-item:before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: calc(50% - 7px);
+    left: 2%;
+    background: url('/img/icons/icon-6.png') no-repeat center;
+}
+
+.img-number {
+    position: relative;
+}
+
+.img-number:before {
+    content: "";
+    position: absolute;
+    width: 47px;
+    height: 63px;
+    top: calc(50% - (63px/2));
+    left: 0;
+    background: url('/img/icons/icon-2.png') no-repeat center;
+}
+
+.img-globe {
+    position: relative;
+}
+
+.img-globe:before {
+    content: "";
+    position: absolute;
+    width: 68px;
+    height: 63px;
+    top: calc(50% - (63px/2));
+    left: 0;
+    background: url('/img/icons/icon-3.png') no-repeat center;
+}
+
+.img-rocket {
+    position: relative;
+}
+
+.img-rocket p {
+    font-family: Gilroy, sans-serif;
+    font-weight: bold
+}
+
+.img-rocket:before {
+    content: "";
+    position: absolute;
+    width: 69px;
+    height: 66px;
+    top: calc(50% - (66px/2));
+    left: 0;
+    background: url('/img/icons/icon-4.png') no-repeat center;
+}
+
+.advantages {
+    width: 33.3%;
+}
+
+.advantages p {
+    margin: 0;
+}
+
+.problems {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .img-blog2 {
+        display: none;
+    }
+    .inline-card-blog1 p {
+        padding-left: 17%;
+    }
+    .advantages {
+        width: 55%;
+        margin-left: 20%;
+    }
+    .cards-blog-2 {
+        width: 50%;
+        padding: 1%;
+    }
+    .problems {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .img-blog2 {
+        display: none;
+    }
+    .card-globe {
+        flex-wrap: wrap;
+    }
+
+    .inline-card-blog1 p {
+        padding-left: 25%;
+    }
+    .advantages {
+        width: 55%;
+        margin-left: 20%;
+    }
+
+    .questions {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .cards-blog2 {
+        width: 100%;
+    }
+
+    .problems {
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 768px){
+    .img-blog2 {
+        display: none;
+    }
+    .inline-card-blog1 p {
+        padding-left: 25%;
+    }
+    .advantages {
+        width: 70%;
+        margin-left: 20%;
+    }
+    .questions {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .cards-blog2 {
+        width: 100%;
+    }
 }
 

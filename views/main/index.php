@@ -1,59 +1,64 @@
     <div class="container">
-        <div class="col-md-7">
-                <div class="row mt-lg-5">
-                    <div>
-                        <p style="font-size: 36.72px; font-weight: 400 "><span style="font-weight: 700">Low-code платформа</span><br> для автоматизации и роботизации бизнес-процессов и CRM</p>
+        <div class="col-8">
+                <div class="row mt-5">
+                    <div class="blog1-title p-4">
+                        <p style=""><span style="font-weight: 700">Low-code платформа</span><br> для автоматизации и роботизации бизнес-процессов и CRM</p>
                     </div>
                 </div>
-                <div class="row pt-lg-5 pl-lg-4 ">
+                <div class="row p-3 mt-5 ml-3">
                     <p style="font-size: 24px; font-weight: bold">ELMA BPM</p>
-                    <div class="d-inline-flex icon ">
-                        <img src="/../web/img/icons/icon-1.png" alt="">
-                        <p class="pl-5" style="font-weight: 600">Эффективное управление благодаря сквозной автоматизации</p>
+                    <div>
+                        <p class="pl-5 done" style="font-weight: 600">Эффективное управление благодаря сквозной автоматизации</p>
                     </div>
-                    <div class="d-inline-flex icon">
-                        <img src="/../web/img/icons/icon-1.png" alt="">
-                        <p class="pl-5" style="font-weight: 600">Планирование, проектирование и контроль бизнес-процессов</p>
+                    <div>
+                        <p class="pl-5 done" style="font-weight: 600">Планирование, проектирование и контроль бизнес-процессов</p>
                     </div>
-                    <div class="d-inline-flex icon">
-                        <img src="/../web/img/icons/icon-1.png" alt="">
-                        <p class="pl-5" style="font-weight: 600">Организация совместной работы коллектива по процессам</p>
+                    <div>
+                        <p class="pl-5 done" style="font-weight: 600">Организация совместной работы коллектива по процессам</p>
                     </div>
-                    <div class="d-inline-flex icon">
-                        <img src="/../web/img/icons/icon-1.png" alt="">
-                        <p class="pl-5" style="font-weight: 600">Создание условий для роста производительности</p>
+                    <div>
+                        <p class="pl-5 done" style="font-weight: 600">Создание условий для роста производительности</p>
                     </div>
-                    <div class="d-inline-flex icon">
-                        <img src="/../web/img/icons/icon-1.png" alt="">
-                        <p class="pl-5" style="font-weight: 600">Единое информационное пространство</p>
+                    <div>
+                        <p class="pl-5 done" style="font-weight: 600">Единое информационное пространство</p>
                     </div>
-                    <div class="d-inline-flex icon">
-                        <img src="/../web/img/icons/icon-1.png" alt="">
-                        <p class="pl-5" style="font-weight: 600">Сокращение затрат на управление</p>
+                    <div>
+                        <p class="pl-5 done" style="font-weight: 600">Сокращение затрат на управление</p>
                     </div>
                 </div>
-            </div>
+        </div>
         <div class="row" style="margin-top: 140px;">
-            <div class="card-blog1 rounded d-flex justify-content-center align-content-center flex-row flex-wrap">
-                <div class="inline-card-blog1 rounded d-flex">
-                    <img src="/../web/img/icons/icon-2.png" width="47px" height="63px" class="m-3" alt="">
-                    <p style="font-weight: 700" class="mt-4"><span style="font-family: Gilroy, sans-serif; font-weight: bold">№1</span> BPMS в Казахстане
-                        <br> по количеству внедрений</p>
+            <div class="p-2 advantages">
+                <div class="p-2 card-blog1 rounded">
+                    <div class="p-2 inline-card-blog1 rounded">
+                        <div class="p-2">
+                            <p class="img-number"><span style="font-family: Gilroy, sans-serif; font-weight: bold">№1</span> BPMS в Казахстане
+                                <br> по количеству внедрений</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="card-blog1 rounded ml-lg-4 d-flex justify-content-center align-content-center flex-row flex-wrap">
-                <div class="inline-card-blog1 rounded d-flex">
-                    <img src="/../web/img/icons/icon-3.png" width="68px" height="63px" class="m-3" alt="">
-                    <p style="font-weight: 700" class="mt-4">Глобальная разработка ELMA SARL (Люксембург)</p>
+
+            <div class="p-2 advantages">
+                <div class="p-2 card-blog1 rounded">
+                    <div class="p-2 inline-card-blog1 rounded">
+                        <div class="p-2">
+                            <p class="img-globe">Глобальная разработка ELMA SARL (Люксембург)</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="card-blog1 rounded ml-lg-4 d-flex justify-content-center align-content-center flex-row flex-wrap">
-                <div class="inline-card-blog1 rounded d-flex">
-                    <img src="/../web/img/icons/icon-4.png" width="69px" height="66px" class="m-3" alt="">
-                    <p style="font-weight: 700" class="mt-4"><span style="font-family: Gilroy, sans-serif; font-weight: bold">№1</span> BPMS в Казахстане
-                        <br> по количеству внедрений</p>
+
+            <div class="p-2 advantages">
+                <div class="p-2 card-blog1 rounded">
+                    <div class="p-2 inline-card-blog1 rounded">
+                        <div class="p-2">
+                            <p class="img-rocket">Более 1500 компаний используют ELMA</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+
         </div>
     </div>
 </div>
@@ -72,99 +77,85 @@
 <div class="blog-2 mt-lg-5">
     <div class="container">
         <p style="font-weight: 700; font-size: 24px; text-align: center" >Если Вы задаетесь следующими вопросами:</p>
-        <div class="row mt-5">
-            <div class="col-4">
-                <div class="card-blog2 rounded d-flex justify-content-center align-content-center flex-row flex-wrap">
-                    <div class="inline-card-blog2 rounded d-flex question-div">
-                        <p style="font-weight: 600; font-size: 16px" class="pl-5 py-3 question-item">Как повысить производительность труда на предприятии, в компании?</p>
+        <div class="d-flex questions">
+            <div class="cards-blog-2">
+                <div class="card-blog2 mt-3 p-1 rounded">
+                    <div class="inline-card-blog2 rounded d-flex">
+                        <p class="question-item pt-3 pb-2 m-0" style="padding-left: 60px">Как повысить производительность труда на предприятии, в компании?</p>
                     </div>
                 </div>
-                <div class="card-blog2 mt-4 rounded d-flex justify-content-center align-content-center flex-row flex-wrap">
+                <div class="card-blog2 mt-3 p-1 rounded">
                     <div class="inline-card-blog2 rounded d-flex">
-                        <img src="/../web/img/icons/icon-5.png" width="20px" height="20px" class="mt-4 ml-3" alt="">
-                        <p style="font-weight: 600; font-size: 16px" class="mt-3 ml-3">Как отслеживать занятость сотрудников?</p>
+                        <p class="question-item pt-3 pb-2 m-0" style="padding-left: 60px">Как отслеживать занятость сотрудников?</p>
                     </div>
                 </div>
-                <div class="card-blog2 mt-4 rounded d-flex justify-content-center align-content-center flex-row flex-wrap">
+                <div class="card-blog2 mt-3 p-1 rounded">
                     <div class="inline-card-blog2 rounded d-flex">
-                        <img src="/../web/img/icons/icon-5.png" width="20px" height="20px" class="mt-4 ml-3" alt="">
-                        <p style="font-weight: 600; font-size: 16px" class="mt-3 ml-3">Как контролировать параллельное выполнение работ?</p>
+                        <p class="question-item pt-3 pb-2 m-0" style="padding-left: 60px">Как контролировать параллельное выполнение работ?</p>
                     </div>
                 </div>
-                <div class="card-blog2 mt-4 rounded d-flex justify-content-center align-content-center flex-row flex-wrap">
+                <div class="card-blog2 mt-3 p-1 rounded">
                     <div class="inline-card-blog2 rounded d-flex">
-                        <img src="/../web/img/icons/icon-5.png" width="20px" height="20px" class="mt-4 ml-3" alt="">
-                        <p style="font-weight: 600; font-size: 16px" class="mt-3 ml-3">Как избежать дублирования функций?</p>
+                        <p class="question-item pt-3 pb-2 m-0" style="padding-left: 60px">Как избежать дублирования функций?</p>
                     </div>
                 </div>
             </div>
-            <div class="col-4">
-                <img src="/../web/img/image-2.jpg" width="354px" height="514px" alt="">
+            <div class="img-blog2">
+                <img src="/img/image-2.jpg"  alt="">
             </div>
-            <div class="col-4">
-                <div class="card-blog2 rounded d-flex justify-content-center align-content-center flex-row flex-wrap">
+            <div class="cards-blog-2">
+                <div class="card-blog2 mt-3 p-1 rounded">
                     <div class="inline-card-blog2 rounded d-flex">
-                        <img src="/../web/img/icons/icon-5.png" width="20px" height="20px" class="mt-4 ml-3" alt="">
-                        <p style="font-weight: 600; font-size: 16px" class="mt-3 ml-3">Как автоматизировать управление процессами, проектами?</p>
+                        <p class="question-item pt-3 pb-2 m-0" style="padding-left: 60px">Как автоматизировать управление процессами, проектами?</p>
                     </div>
                 </div>
-                <div class="card-blog2 mt-4 rounded d-flex justify-content-center align-content-center flex-row flex-wrap">
+                <div class="card-blog2 mt-3 p-1 rounded">
                     <div class="inline-card-blog2 rounded d-flex">
-                        <img src="/../web/img/icons/icon-5.png" width="20px" height="20px" class="mt-4 ml-3" alt="">
-                        <p style="font-weight: 600; font-size: 16px" class="mt-3 ml-3">Как координировать действия проектной команды?</p>
+                        <p class="question-item pt-3 pb-2 m-0" style="padding-left: 60px">Как координировать действия проектной команды?</p>
                     </div>
                 </div>
-                <div class="card-blog2 mt-4 rounded d-flex justify-content-center align-content-center flex-row flex-wrap">
+                <div class="card-blog2 mt-3 p-1 rounded">
                     <div class="inline-card-blog2 rounded d-flex">
-                        <img src="/../web/img/icons/icon-5.png" width="20px" height="20px" class="mt-4 ml-3" alt="">
-                        <p style="font-weight: 600; font-size: 16px" class="mt-3 ml-3">Как снизить затраты на содержание управленческого аппарата?</p>
+                        <p class="question-item pt-3 pb-2 m-0" style="padding-left: 60px">Как снизить затраты на содержание управленческого аппарата?</p>
                     </div>
                 </div>
-                <div class="card-blog2 mt-4 rounded d-flex justify-content-center align-content-center flex-row flex-wrap">
+                <div class="card-blog2 mt-3 p-1 rounded">
                     <div class="inline-card-blog2 rounded d-flex">
-                        <img src="/../web/img/icons/icon-5.png" width="20px" height="20px" class="mt-4 ml-3" alt="">
-                        <p style="font-weight: 600; font-size: 16px" class="ml-3">Как организовать работу команды в едином информационном пространстве?</p>
+                        <p class="question-item pt-3 pb-2 m-0" style="padding-left: 60px">Как организовать работу команды в едином информационном пространстве?</p>
                     </div>
                 </div>
             </div>
         </div>
-        <p style="font-weight: 700; font-size: 24px; text-align: center" >А также при наличии проблем организационного характера:</p>
-        <div class="col ml-lg-5">
-            <div class="ml-lg-4">
-                <div class="d-flex">
-                    <img src="/../web/img/icons/icon-6.png" class="mt-1" width="30px" height="30px" alt="">
-                    <p style="font-weight: 600" class="ml-3">Отсутствие общей картины занятости специалистов компании</p>
+        <p class="problems" >А также при наличии проблем организационного характера:</p>
+        <div class="col pl-5 justify-content-center ">
+            <div class="p-2">
+                <div class="">
+                    <p style="font-weight: 600" class="pl-5 close-item">Отсутствие общей картины занятости специалистов компании</p>
                 </div>
-                <div class="d-flex">
-                    <img src="/../web/img/icons/icon-6.png" class="mt-1" width="30px" height="30px" alt="">
-                    <p style="font-weight: 600" class="ml-3">Регулярные нарушения сроков проектов, реализации программ, производства продукции, поставок</p>
+                <div class="">
+                    <p style="font-weight: 600" class="pl-5 close-item">Регулярные нарушения сроков проектов, реализации программ, производства продукции, поставок</p>
                 </div>
-                <div class="d-flex">
-                    <img src="/../web/img/icons/icon-6.png" class="mt-1" width="30px" height="30px" alt="">
-                    <p style="font-weight: 600" class="ml-3">Несогласованность действий исполнителей в рамках выполнения совместного проекта</p>
+                <div class="">
+                    <p style="font-weight: 600" class="pl-5 close-item">Несогласованность действий исполнителей в рамках выполнения совместного проекта</p>
                 </div>
-                <div class="d-flex">
-                    <img src="/../web/img/icons/icon-6.png" class="mt-1" width="30px" height="30px" alt="">
-                    <p style="font-weight: 600" class="ml-3">Слабое либо неэффективное сотрудничество персонала, зачастую с признаками конкуренции</p>
+                <div class="">
+                    <p style="font-weight: 600" class="pl-5 close-item">Слабое либо неэффективное сотрудничество персонала, зачастую с признаками конкуренции</p>
                 </div>
-                <div class="d-flex">
-                    <img src="/../web/img/icons/icon-6.png" class="mt-1" width="30px" height="30px" alt="">
-                    <p style="font-weight: 600" class="ml-3">Перерождение функциональных задач отдельных подразделений в бюрократические структуры</p>
+                <div class="">
+                    <p style="font-weight: 600" class="pl-5 close-item">Перерождение функциональных задач отдельных подразделений в бюрократические структуры</p>
                 </div>
-                <div class="d-flex">
-                    <img src="/../web/img/icons/icon-6.png" class="mt-1" width="30px" height="30px" alt="">
-                    <p style="font-weight: 600" class="ml-3">Территориальная разрозненность подразделений и, как следствие, сложная управляемость</p>
+                <div class="">
+                    <p style="font-weight: 600" class="pl-5 close-item">Территориальная разрозненность подразделений и, как следствие, сложная управляемость</p>
                 </div>
-                <div class="d-flex">
-                    <img src="/../web/img/icons/icon-6.png" class="mt-1" width="30px" height="30px" alt="">
-                    <p style="font-weight: 600" class="ml-3">Отсутствие четких критериев оценки эффективности и качества труда</p>
+                <div class="">
+                    <p style="font-weight: 600" class="pl-5 close-item">Отсутствие четких критериев оценки эффективности и качества труда</p>
                 </div>
             </div>
         </div>
     </div>
     <div class="mt-lg-5 plazhki">
-        <img src="/../web/img/Плажки-2.png" style="margin-bottom: -6.5%; z-index: 1; " alt="">
-        <img src="/../web/img/Плажки-1.png" style="z-index: 2;" alt="">
+        <img src="/img/Плажки-2.png" style="margin-bottom: -6.5%; z-index: 1; " alt="">
+        <img src="/img/Плажки-1.png" style="z-index: 2;" alt="">
     </div>
 </div>
 

@@ -15,10 +15,11 @@ class MainAsset extends AssetBundle
         'css/main.css',
     ];
     public $js = [
+        'js/responsive.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
-        'yii\bootstrap4\BootstrapAsset',
+        'yii\bootstrap4\BootstrapPluginAsset',
     ];
 
 }
