@@ -18,7 +18,8 @@ MainAsset::register($this);
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="http://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <?php $this->head() ?>
 </head>
 <body>
@@ -33,26 +34,26 @@ MainAsset::register($this);
             </div>
 
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item p-1 mx-3">
+                <ul class="navbar-nav navigation">
+                    <li class="nav-item p-2">
                         <a href="#">Главная</a>
                     </li>
-                    <li class="nav-item p-1 mx-3">
+                    <li class="nav-item p-2">
                         <a href="#">О продукте</a>
                     </li>
-                    <li class="nav-item p-1 mx-3">
+                    <li class="nav-item p-2">
                         <a href="#">Стоимость</a>
                     </li>
-                    <li class="nav-item p-1 mx-3">
+                    <li class="nav-item p-2">
                         <a href="#">О нас</a>
                     </li>
-                    <li class="nav-item p-1 mx-3">
+                    <li class="nav-item p-2">
                         <a href="#">Отзывы</a>
                     </li>
-                    <li class="nav-item p-1 mx-3">
+                    <li class="nav-item p-2">
                         <a href="#">Контакты</a>
                     </li>
-                    <li class="nav-item p-1 mx-3">
+                    <li class="nav-item p-2">
                         <a href="#">Блог</a>
                     </li>
                 </ul>
@@ -60,23 +61,36 @@ MainAsset::register($this);
 
             <div>
                 <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                        <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            РУС
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">РУС</a>
-                            <a class="dropdown-item" href="#">ENG</a>
+                    <li class="nav-item dropdown buttons-mobile">
+                        <div class="lang">
+                            <select style="background-color: inherit; font-weight: 700; border: none;">
+                                <option value="none" selected disabled hidden>РУС</option>
+                                <option value="">ENG</option>
+                                <option value="">РУС</option>
+                            </select>
                         </div>
-                        <button class="btn" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <i class="fas fa-angle-down"></i>
-                        </button>
+                        <div class="mobile-menu">
+                            <input id="menu-toggle" type="checkbox" />
+                            <label class="menu-btn" for="menu-toggle">
+                                <span></span>
+                            </label>
+
+                            <ul class="menubox">
+                                <li><a class="menu-item" href="#">Главная</a></li>
+                                <li><a class="menu-item" href="#">О продукте</a></li>
+                                <li><a class="menu-item" href="#">Стоимость</a></li>
+                                <li><a class="menu-item" href="#">О нас</a></li>
+                                <li><a class="menu-item" href="#">Отзывы</a></li>
+                                <li><a class="menu-item" href="#">Контакты</a></li>
+                                <li><a class="menu-item" href="#">Блог</a></li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
             </div>
         </nav>
     </div>
-<div class="collapse" id="navbarToggleExternalContent">
+<div class="collapse navigation-mobile" id="navbarToggleExternalContent">
     <ul class="navbar-nav" >
         <li class="nav-item p-2">
             <a href="#">Главная</a>

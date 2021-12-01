@@ -9,10 +9,122 @@ p {
     font-style: normal;
 }
 
+.navigation li {
+    margin: 0 10px;
+}
+
+.navigation-mobile {
+    height: auto;
+    width: 30%;
+    z-index: 11;
+}
+.mobile-menu {
+    display: none;
+}
+.menu-btn{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right:0;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.menu-btn > span,
+.menu-btn > span::before,
+.menu-btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+    transition-duration: .25s;
+}
+.menu-btn > span::before {
+    content: '';
+    top: -8px;
+}
+.menu-btn > span::after {
+    content: '';
+    top: 8px;
+}
+
+.menubox{
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #fff;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    transition-duration: .25s;
+    z-index: 11;
+}
+
+.menu-item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+}
+.menu-item:hover {
+    background-color: #cfd8dc;
+}
+#menu-toggle{
+    opacity: 0;
+}
+
+#menu-toggle:checked ~ .menu-btn > span{
+    transform: rotate(45deg);
+}
+#menu-toggle:checked ~ .menu-btn > span::before{
+    top: 0;
+    transform: rotate(0);
+}
+#menu-toggle:checked ~ .menu-btn > span::after{
+    top: 0;
+    transform: rotate(90deg);
+}
+#menu-toggle:checked ~ .menubox{
+    visibility: visible;
+    left: 0;
+}
+
 .blog1-title p {
     font-size: 36.72px;
     font-weight: 400;
     line-height: 42px;
+}
+
+.about{
+    width: 70%;
+}
+
+.advantages {
+    margin-top: 140px;
+}
+
+.quote {
+    width: 50%;
+    margin: 0;
+}
+
+.quote p {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .menu-font {
@@ -91,7 +203,7 @@ a:hover {
     width: 20px;
     height: 20px;
     top: calc(50% - 10px);
-    left: 5%;
+    left: 30px;
     background: url('/img/icons/icon-5.png') no-repeat center;
 }
 
@@ -174,11 +286,11 @@ a:hover {
     background: url('/img/icons/icon-4.png') no-repeat center;
 }
 
-.advantages {
+.advantage {
     width: 33.3%;
 }
 
-.advantages p {
+.advantage p {
     margin: 0;
 }
 
@@ -189,13 +301,22 @@ a:hover {
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px){
+    .navigation li {
+        margin: 0;
+    }
+    .about{
+        width: 80%;
+    }
+    .advantages {
+        margin-top: 40px;
+    }
     .img-blog2 {
         display: none;
     }
     .inline-card-blog1 p {
         padding-left: 17%;
     }
-    .advantages {
+    .advantage {
         width: 55%;
         margin-left: 20%;
     }
@@ -204,11 +325,33 @@ a:hover {
         padding: 1%;
     }
     .problems {
-        margin-top: 10px;
+        margin-top: 30px;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px){
+    .buttons-mobile {
+        display: flex;
+    }
+    .lang{
+        margin-right: 30px;
+    }
+    .mobile-menu {
+        display: block;
+    }
+    .blog-2 {
+        margin-top: 50px;
+    }
+    .about{
+        width: 100%;
+    }
+    .advantages {
+        margin-top: 40px;
+    }
+    .quote {
+        width: 100%;
+        margin-top: 30px;
+    }
     .img-blog2 {
         display: none;
     }
@@ -219,32 +362,54 @@ a:hover {
     .inline-card-blog1 p {
         padding-left: 25%;
     }
-    .advantages {
+    .advantage {
         width: 55%;
         margin-left: 20%;
     }
-
     .questions {
         flex-direction: column;
         flex-wrap: wrap;
     }
-
     .cards-blog2 {
         width: 100%;
     }
-
     .problems {
-        margin-top: 10px;
+        margin-top: 30px;
     }
 }
 @media screen and (max-width: 768px){
+    .buttons-mobile {
+        display: flex;
+    }
+    .lang{
+        margin-right: 30px;
+    }
+    .mobile-menu {
+        display: block;
+    }
+    .btn-mobile {
+        display: flex;
+    }
+    .about{
+        width: 100%;
+    }
+    .advantages {
+        margin-top: 40px;
+    }
+    .quote {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .blog-2 {
+        margin-top: 50px;
+    }
     .img-blog2 {
         display: none;
     }
     .inline-card-blog1 p {
         padding-left: 25%;
     }
-    .advantages {
+    .advantage {
         width: 70%;
         margin-left: 20%;
     }
@@ -254,6 +419,9 @@ a:hover {
     }
     .cards-blog2 {
         width: 100%;
+    }
+    .problems {
+        margin-top: 30px;
     }
 }
 

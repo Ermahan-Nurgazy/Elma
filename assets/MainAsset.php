@@ -15,7 +15,6 @@ class MainAsset extends AssetBundle
         'css/main.css',
     ];
     public $js = [
-        'js/responsive.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
